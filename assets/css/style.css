@@ -1,0 +1,189 @@
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding:0 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#quiz-box {
+    background-color: rgb(220, 248, 255);
+    width: 650px;
+    height: 380px;
+    margin: 0 auto;
+    padding: 15px 40px 15px 40px;
+    border: solid; color: #4169e1;
+    border-radius: 5px;
+   
+
+}
+
+#end-page {
+    background-color: rgb(220, 248, 255);
+    width: 650px;
+    height: 380px;
+    margin: 0 auto;
+    padding: 15px 40px 15px 40px;
+    border: solid; color: #4169e1;
+    border-radius: 5px;
+   
+
+}
+
+
+
+
+header h1 {
+
+background-color: #4169e1;
+text-align: center;
+height: 50px;
+color: whitesmoke;
+font-size: 40px;
+font-weight: bold;
+padding: 10px 0 0 0;
+
+}
+
+
+.timer {
+    display: flex;
+    position:fixed;
+    padding-bottom: 550px;
+
+
+}
+
+
+
+#time-left  {
+    background-color: royalblue;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    padding: 3px 3px 3px 3px;
+    line-height: 1.5;
+
+    border-radius: 10px;
+    border: solid;
+
+
+}
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#status {
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 5px 0px;
+
+}
+
+#qs{
+
+    font-size: 30px;
+    font-weight: 600;
+    border: 1px solid gray;
+    color: rgb(20, 94, 255);
+    padding: 10px 5px;
+    margin: 2px 2px ;
+    border-width: 1px 0;
+
+}
+
+
+.buttons {
+    padding: 30px 0 0 0;
+
+
+
+}
+.btn {
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid blueviolet;  
+    border-radius: 0px;
+    margin: 8px 0;
+    padding: 10px 15px;
+    outline: none;
+    
+}
+
+
+.btn:hover {
+cursor: pointer;
+background-color: aqua;
+color: blueviolet;
+
+
+}
+
+.btn:active {
+
+    background-color: orchid;
+
+
+
+}
+
+
+.hidden {
+
+    display:none;
+
+}
+
+
+
+#end-page h1 {
+
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    padding: 0px 5px 25px 5px;
+    margin: 2px 2px 15px 2px;
+}
+
+
+input {
+
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px solid;
+   
+}
+
+
+#playAgain {
+
+padding: 10px 10px;
+display: flex;
+background-color: lawngreen
+
+}
+
+
+
+
+
+
+
+/* Take Quiz again button
+    Neeed to add link insude button that 
+*/
+
+

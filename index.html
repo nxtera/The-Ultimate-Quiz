@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Quiz</title>
+</head>
+
+<header>
+
+<h1>Ultimate Quiz</h1>
+
+
+</header>
+
+
+<body style= "background-image: url('./assets/images/background.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+
+    <div class="container">
+        <div class ="timer hidden"> <h1 id="time-left"></h1> </div>
+            <div id ='quiz-box'; class = "hidden";>
+            <div id="quiz"></div>
+            <div class="quiz-header"></div>
+                <p id ='status'>Question x of y</p>
+                <p id="qs"></p>            
+                    <div class = 'buttons'>
+                    <button class="btn" id="btn0">A. <span id="choice0"></span></button>
+                    <button class="btn" id="btn1">B. <span id="choice1"></span></button>
+                    <button class="btn" id="btn2">C. <span id="choice2"></span></button>
+                    <button class="btn" id="btn3">D. <span id="choice3"></span></button>
+                    </div>
+        </div>
+        <div class = "start">
+            <button class="btn" id="startbtn">Press here to start the quiz</button>
+        </div>
+        
+        <!--Results Box-->
+        <div class = 'results hidden' id="end-page">
+            <h1>Results</h1>
+            <h2 id="final-score"> Score:</h2>
+            <form>
+                <input type="text" id="init" name="init" placeholder="Your Initials">
+                <button 
+                    type="submit" 
+                    class ="btn" 
+                    id="btnsub"
+                    onclick="saveHighScore(event)"
+                    >Submit
+              </button>
+            </form>
+            <a class="btn" id="playAgain" href="/index.html">Play Again</a>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./assets/js/script.js"></script>
+</body>
+
+</html>
